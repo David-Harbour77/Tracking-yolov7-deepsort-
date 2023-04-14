@@ -21,15 +21,5 @@ This code works **perfectly** with `python== 3.7, tensorflow==2.8.0, torch== 1.8
 
 One of the most frequent problem is with the `PATH` such as model weights, input, output etc so pass in the path of the weights carefully. Do not just `run all` all the cells given in the notebook. this code works perfectly as long as you pass the correct path.
 
-If you find yourself in trouble, please raise an issue.
 
-
-# References
-1. [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://github.com/WongKinYiu/yolov7)
-2. [Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT)](https://github.com/nwojke/deep_sort)
-3. [Tensorflow-v1 error code help](https://github.com/theAIGuysCode/yolov4-deepsort)
-
-# Help, Issues and Future work
-Any issues, help, bug, feature requestd andd suggestions are very much welcomed. Please feel free to open up the issues.
-I'll be putting the quantized `Onnx` deployable version here along with `Docker`  image in some time. If you have the time and expertise, please free to open up a merge request. 
 
