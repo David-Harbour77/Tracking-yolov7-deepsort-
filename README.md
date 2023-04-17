@@ -19,6 +19,7 @@ For use in local system, please follow the below steps
 # Troubleshooting
 This code works **perfectly** with `python== 3.7, tensorflow==2.8.0, torch== 1.8.0, sklearn==0.24.2` on local **Ubuntu: CPU** as well as **Colab: CPU + GPU** as of `13/07/2022`.
 
+
 One of the most frequent problem is with the `PATH` such as model weights, input, output etc so pass in the path of the weights carefully. Do not just `run all` all the cells given in the notebook. this code works perfectly as long as you pass the correct path.
 
 
